@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	//variables
+
+	double f, k;
+	int c;
+
+	f = 33.8;
+	k = 274.15;
+	
+	
+
+	cout << "Celsius " << " Fahrenheit " << " Kelvin \n"; //temperatures
+
+	for (c = 1; c <= 10; c++) // loop
+	{
+		cout << c << "\t " << f << "\t     " << k << endl;
+
+
+		f = f + 1.8;
+		k++; // convertion 1 to 10
+
+
+	}
+	return 0;
+
+}
