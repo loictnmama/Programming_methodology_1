@@ -1,0 +1,82 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	// variables
+
+	string firstName, lastName ;
+	int id, grade; 
+
+	// Inputs
+
+	cout << "What is your name? : "; // name
+	cin >> firstName >> lastName;
+	cout << endl << "What is your ID : "; // ID
+	cin >> id;
+	cout << endl << "What is your final grade? : "; // grade
+	cin >> grade;
+	cout << endl;
+
+	// grade attribution
+
+	if (grade >= 90)
+
+		cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is A+ \n"; // cout grade
+	else
+		if (grade >= 85)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is A \n";
+
+		else 
+			if(grade >= 80)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is A- \n";
+
+			else
+				if (grade >= 75 )
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is B+ \n";
+
+				else 
+					if (grade >= 70)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is B \n";
+
+					else
+						if(grade >= 65)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is C+ \n";
+
+						else
+							if(grade >= 60)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is C \n";
+
+							else
+								if(grade >= 55)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is C- \n";
+
+								else
+									if(grade >= 50)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is D+ \n";
+
+									else
+										if(grade >= 45)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is D \n";
+
+										else
+											if(grade >= 40)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is D- \n";
+
+											else
+												if (grade < 40)
+	cout << "The letter grade of " << firstName << " " << lastName << " (" << id << ") is F \n";
+
+
+
+
+	return 0;
+	
+
+
+
+
+
+}
